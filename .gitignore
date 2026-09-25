@@ -1,0 +1,18 @@
+# 虚拟环境 —— 几百 MB，绝对不要传上 GitHub
+.venv/
+venv/
+env/
+
+# PyCharm 的项目配置 —— 只对你这台机器有意义
+.idea/
+.vscode/
+
+# Python 自动生成的缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 其他
+*.log
+.DS_Store
+Thumbs.db
